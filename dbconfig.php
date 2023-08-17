@@ -1,10 +1,10 @@
 <?php
 /* Host name of the MySQL server */
-$host = 'localhost';
+$host = 'localhost:3307';
 /* MySQL account username */
 $user = 'root';
 /* MySQL account password */
-$passwd = '';
+$passwd = 'admin1234';
 /* The schema you want to use */
 $schema = 'userlitdb';
 /* Connection with MySQLi, procedural-style */
@@ -17,4 +17,4 @@ if (!$con)
    echo 'Error message: ' . mysqli_connect_error() . '<br>';
    die();
 }
-echo 'Successfully connected!<br>';
+echo 'Successfully connected DB!<br>';

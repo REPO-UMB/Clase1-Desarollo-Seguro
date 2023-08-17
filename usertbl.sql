@@ -33,7 +33,7 @@ CREATE TABLE `usertbl` (
   `email` varchar(64) NOT NULL,
   `username` varchar(64) NOT NULL,
   `password` varchar(64) NOT NULL,
-  `tyc` tinyint(1) NOT NULL
+  `tyc` tinyint(1) NOT NULL 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
